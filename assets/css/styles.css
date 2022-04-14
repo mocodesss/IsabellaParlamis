@@ -1,5 +1,47 @@
 body {
   font-family: Helvetica, sans-serif;
+  color: black;
+  background-color: azure;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5%;
+  row-gap: 10%;
+}
+
+.grid-box {
+  padding: 2%;
+  font-size: 20pt;
+  max-width: 80%;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.grid-box:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.one {
+  background-color: cadetblue;
+}
+
+.two {
   background-color: palevioletred;
-  color: antiquewhite;
+}
+
+.three {
+  background-color: coral;
+}
+
+.four {
+  background-color: antiquewhite;
 }
